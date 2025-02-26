@@ -1,0 +1,326 @@
+{
+  "benefits_plan": {
+    "basic_information": {
+      "benefit_type": "medical",
+      "plan_name": "Cigna Gold PPO",
+      "carrier_name": "Cigna",
+      "plan_type": "ppo",
+      "insurance_type": "medical",
+      "metal_tier": "gold",
+      "state": "CA",
+      "funding_type": "fully_insured",
+      "plan_document_link": "",
+      "additional_plan_document": "",
+      "nickname": "",
+      "network": "BYB",
+      "network_providers_link": "",
+      "formulary_link": "",
+      "out_of_state_employees_supported": null,
+      "effective_date": "2024-01-01",
+      "expiration_date": "2024-12-31",
+      "plan_suite_names": [],
+      "benefit_period": "",
+      "form_number": "",
+      "coverage_for": ""
+    },
+    "health_plan_details": {
+      "insurance_type": "medical",
+      "plan_type": "ppo",
+      "metal_tier": "gold",
+      "hsa_eligible": null,
+      "hsa_compatible": null,
+      "deductible_reset_year": "",
+      "referral_required": null,
+      "preventive_services_covered_before_deductible": null,
+      "actuarial_value": null,
+      "service_area": "",
+      "available_counties": [],
+      "balance_billing_protection": null,
+      "continuation_of_coverage_options": null,
+      "embedded_deductible": null,
+      "embedded_out_of_pocket": null,
+      
+      "individual_deductible": {
+        "in_network": {
+          "amount_cents": 0,
+          "formatted": "$0.00",
+          "terms": "",
+          "applies_to_preventive": null
+        },
+        "out_of_network": {
+          "amount_cents": null,
+          "formatted": "",
+          "terms": "",
+          "applies_to_preventive": null
+        }
+      },
+      "family_deductible": {
+        "in_network": {
+          "amount_cents": 0,
+          "formatted": "$0.00",
+          "terms": ""
+        },
+        "out_of_network": {
+          "amount_cents": null,
+          "formatted": "",
+          "terms": ""
+        }
+      },
+      "individual_moop": {
+        "in_network": {
+          "amount_cents": 80500000,
+          "formatted": "$805,000.00",
+          "included_costs": []
+        },
+        "out_of_network": {
+          "amount_cents": null,
+          "formatted": "",
+          "included_costs": []
+        }
+      },
+      "family_moop": {
+        "in_network": {
+          "amount_cents": 161000000,
+          "formatted": "$1,610,000.00",
+          "included_costs": []
+        },
+        "out_of_network": {
+          "amount_cents": null,
+          "formatted": "",
+          "included_costs": []
+        }
+      },
+      "co_insurance_percentage": {
+        "in_network": 0,
+        "out_of_network": null
+      },
+      "network": "BYB",
+      "medicare_d_creditable": null,
+      "excluded_services": [],
+      "not_included_in_out_of_pocket": []
+    },
+    "pharmacy_details": {
+      "separate_rx_deductible": {
+        "individual": {
+          "amount_cents": null,
+          "formatted": ""
+        },
+        "family": {
+          "amount_cents": null,
+          "formatted": ""
+        }
+      },
+      "separate_rx_moop": null,
+      "pharmacy_tiers": null,
+      "mail_order_available": null,
+      "specialty_pharmacy_required": null,
+      "drug_tiers": [
+        {
+          "tier": 1,
+          "tier_name": "Generic Drugs",
+          "description": "See SBC for more information.",
+          "retail_copay": {
+            "amount_cents": 150000,
+            "formatted": "$1,500.00",
+            "coinsurance_percentage": 0
+          },
+          "mail_order_copay": {
+            "amount_cents": null,
+            "formatted": "",
+            "coinsurance_percentage": null
+          },
+          "days_supply": {
+            "retail": null,
+            "mail_order": null
+          },
+          "deductible_applies": true,
+          "prior_authorization_required": null
+        },
+        {
+          "tier": 2,
+          "tier_name": "Preferred Brand Drugs",
+          "description": "See SBC for more information.",
+          "retail_copay": {
+            "amount_cents": 400000,
+            "formatted": "$4,000.00",
+            "coinsurance_percentage": 0
+          },
+          "mail_order_copay": {
+            "amount_cents": null,
+            "formatted": "",
+            "coinsurance_percentage": null
+          },
+          "days_supply": {
+            "retail": null,
+            "mail_order": null
+          },
+          "deductible_applies": true,
+          "prior_authorization_required": null
+        }
+      ],
+      "preventive_drugs_covered_before_deductible": null
+    },
+    "services": [
+      {
+        "category": "primary_physician_office_visit",
+        "subcategory": "",
+        "copay": {
+          "in_network": "$0.00",
+          "out_of_network": ""
+        },
+        "copay_formatted": "$0.00",
+        "copay_terms": "Preventive Care.",
+        "co_insurance": {
+          "in_network": 0,
+          "out_of_network": null
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": true,
+          "out_of_network": null
+        },
+        "service_maximum": {
+          "in_network": "$0.00",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": 0,
+        "service_frequency_in_months": 0,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "specialist_office_visit",
+        "subcategory": "",
+        "copay": {
+          "in_network": "$5,000.00",
+          "out_of_network": ""
+        },
+        "copay_formatted": "$5,000.00",
+        "copay_terms": "See SBC for more information.",
+        "co_insurance": {
+          "in_network": 0,
+          "out_of_network": null
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": true,
+          "out_of_network": null
+        },
+        "service_maximum": {
+          "in_network": "$0.00",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": 0,
+        "service_frequency_in_months": 0,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "inpatient_physician_cost",
+        "subcategory": "",
+        "copay": {
+          "in_network": "$2,500.00",
+          "out_of_network": ""
+        },
+        "copay_formatted": "$2,500.00",
+        "copay_terms": "Primary Care.",
+        "co_insurance": {
+          "in_network": 0,
+          "out_of_network": null
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": true,
+          "out_of_network": null
+        },
+        "service_maximum": {
+          "in_network": "$0.00",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": 0,
+        "service_frequency_in_months": 0,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      }
+    ],
+    "examples": [],
+    "value_added_benefits": [],
+    "cost_information": {
+      "composite_scheme_key": "",
+      "plan_max_cents": null,
+      "cost_terms": "",
+      "contribution_information": {
+        "employer_contribution_percentage": null,
+        "employee_contribution": null
+      }
+    },
+    "specialty_plan_details": {
+      "dental_plan": {
+        "individual_deductible": "",
+        "family_deductible": "",
+        "plan_max": "",
+        "out_of_pocket_max": "",
+        "waiting_period": "",
+        "preventive_coinsurance": null,
+        "basic_coinsurance": null,
+        "major_coinsurance": null,
+        "orthodontia_coverage": null,
+        "orthodontia_lifetime_maximum": ""
+      },
+      "vision_plan": {
+        "exam_copay": "",
+        "frequency": {
+          "exam": "",
+          "lenses": "",
+          "frames": ""
+        },
+        "frame_allowance": "",
+        "contact_allowance": "",
+        "lens_copay": ""
+      },
+      "life_plan": {
+        "max_basic_benefit": "",
+        "accidental_death_and_dismemberment": null,
+        "cover_dependents": null,
+        "dependent_life_benefit_spouse": "",
+        "dependent_life_benefit_child": "",
+        "benefit_reduction_schedule": ""
+      },
+      "disability_plan": {
+        "definition_of_disability": "",
+        "elimination_period": "",
+        "max_benefit_duration": "",
+        "max_periodic_benefit": "",
+        "min_periodic_benefit": "",
+        "periodic_benefit_ratio": null,
+        "own_occupation_period": "",
+        "pre_existing_condition_limitation": "",
+        "partial_disability_benefits": null
+      }
+    }
+  },
+  "parsing_metadata": {
+    "confidence_score": null,
+    "source_document": "Database query",
+    "extraction_date": "2025-02-25",
+    "parsed_pages": null,
+    "total_pages": null,
+    "low_confidence_fields": [],
+    "missing_required_fields": []
+  }
+} 

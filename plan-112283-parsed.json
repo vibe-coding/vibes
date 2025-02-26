@@ -1,0 +1,844 @@
+{
+  "benefits_plan": {
+    "basic_information": {
+      "benefit_type": "Medical",
+      "plan_name": "Open Access Plus",
+      "carrier_name": "Cigna",
+      "plan_type": "OAP",
+      "insurance_type": "Group Health Insurance",
+      "metal_tier": null,
+      "state": null,
+      "funding_type": null,
+      "plan_document_link": "www.cigna.com/sp",
+      "additional_plan_document": "",
+      "nickname": "OAP Mid Ben",
+      "network": "Open Access Plus",
+      "network_providers_link": "www.cigna.com",
+      "formulary_link": "www.cigna.com",
+      "out_of_state_employees_supported": null,
+      "effective_date": "01/01/2024",
+      "expiration_date": "12/31/2024",
+      "plan_suite_names": [],
+      "benefit_period": "Calendar Year",
+      "form_number": "Plan ID: 27114781",
+      "coverage_for": "Individual/Individual + Family"
+    },
+    "health_plan_details": {
+      "insurance_type": "Group Health Insurance",
+      "plan_type": "OAP",
+      "metal_tier": null,
+      "hsa_eligible": null,
+      "hsa_compatible": null,
+      "deductible_reset_year": "Calendar Year",
+      "referral_required": false,
+      "preventive_services_covered_before_deductible": true,
+      "actuarial_value": null,
+      "service_area": null,
+      "available_counties": [],
+      "balance_billing_protection": true,
+      "continuation_of_coverage_options": null,
+      "embedded_deductible": null,
+      "embedded_out_of_pocket": null,
+      
+      "individual_deductible": {
+        "in_network": {
+          "amount_cents": 0,
+          "formatted": "$0",
+          "terms": "",
+          "applies_to_preventive": false
+        },
+        "out_of_network": {
+          "amount_cents": 100000,
+          "formatted": "$1,000",
+          "terms": "",
+          "applies_to_preventive": false
+        }
+      },
+      "family_deductible": {
+        "in_network": {
+          "amount_cents": 0,
+          "formatted": "$0",
+          "terms": ""
+        },
+        "out_of_network": {
+          "amount_cents": 200000,
+          "formatted": "$2,000",
+          "terms": ""
+        }
+      },
+      "individual_moop": {
+        "in_network": {
+          "amount_cents": 805000,
+          "formatted": "$8,050",
+          "included_costs": ["Medical", "Behavioral", "Pharmacy"]
+        },
+        "out_of_network": {
+          "amount_cents": 1610000,
+          "formatted": "$16,100",
+          "included_costs": ["Medical", "Behavioral", "Pharmacy"]
+        }
+      },
+      "family_moop": {
+        "in_network": {
+          "amount_cents": 1610000,
+          "formatted": "$16,100",
+          "included_costs": ["Medical", "Behavioral", "Pharmacy"]
+        },
+        "out_of_network": {
+          "amount_cents": 3220000,
+          "formatted": "$32,200",
+          "included_costs": ["Medical", "Behavioral", "Pharmacy"]
+        }
+      },
+      "co_insurance_percentage": {
+        "in_network": 30,
+        "out_of_network": 50
+      },
+      "network": "Open Access Plus",
+      "medicare_d_creditable": null,
+      "excluded_services": [
+        "Cosmetic surgery",
+        "Dental care (Adult)",
+        "Dental care (Children)",
+        "Hearing aids",
+        "Infertility treatment",
+        "Long-term care",
+        "Non-emergency care when traveling outside of the U.S.",
+        "Private-duty nursing",
+        "Routine eye care (Adult)",
+        "Routine eye care (Children)",
+        "Routine foot care",
+        "Weight loss programs"
+      ],
+      "not_included_in_out_of_pocket": [
+        "Penalties for failure to obtain pre-authorization for services",
+        "Premiums",
+        "Balance-billing charges",
+        "Health care this plan doesn't cover"
+      ]
+    },
+    "pharmacy_details": {
+      "separate_rx_deductible": {
+        "individual": {
+          "amount_cents": null,
+          "formatted": ""
+        },
+        "family": {
+          "amount_cents": null,
+          "formatted": ""
+        }
+      },
+      "separate_rx_moop": null,
+      "pharmacy_tiers": 4,
+      "mail_order_available": true,
+      "specialty_pharmacy_required": null,
+      "drug_tiers": [
+        {
+          "tier": 1,
+          "tier_name": "Generic drugs",
+          "description": "Generic drugs (Tier 1)",
+          "retail_copay": {
+            "amount_cents": 1500,
+            "formatted": "$15 copay/prescription (retail 30 days)",
+            "coinsurance_percentage": null
+          },
+          "mail_order_copay": {
+            "amount_cents": 3000,
+            "formatted": "$30 copay/prescription (retail & home delivery 90 days)",
+            "coinsurance_percentage": null
+          },
+          "days_supply": {
+            "retail": 30,
+            "mail_order": 90
+          },
+          "deductible_applies": false,
+          "prior_authorization_required": null
+        },
+        {
+          "tier": 2,
+          "tier_name": "Preferred brand drugs",
+          "description": "Preferred brand drugs (Tier 2)",
+          "retail_copay": {
+            "amount_cents": 4000,
+            "formatted": "$40 copay/prescription (retail 30 days)",
+            "coinsurance_percentage": null
+          },
+          "mail_order_copay": {
+            "amount_cents": 8000,
+            "formatted": "$80 copay/prescription (retail & home delivery 90 days)",
+            "coinsurance_percentage": null
+          },
+          "days_supply": {
+            "retail": 30,
+            "mail_order": 90
+          },
+          "deductible_applies": false,
+          "prior_authorization_required": null
+        },
+        {
+          "tier": 3,
+          "tier_name": "Non-preferred brand drugs",
+          "description": "Non-preferred brand drugs (Tier 3)",
+          "retail_copay": {
+            "amount_cents": 6000,
+            "formatted": "$60 copay/prescription (retail 30 days)",
+            "coinsurance_percentage": null
+          },
+          "mail_order_copay": {
+            "amount_cents": 12000,
+            "formatted": "$120 copay/prescription (retail & home delivery 90 days)",
+            "coinsurance_percentage": null
+          },
+          "days_supply": {
+            "retail": 30,
+            "mail_order": 90
+          },
+          "deductible_applies": false,
+          "prior_authorization_required": null
+        },
+        {
+          "tier": 4,
+          "tier_name": "Specialty drugs",
+          "description": "Specialty drugs (Tier 4)",
+          "retail_copay": {
+            "amount_cents": null,
+            "formatted": "",
+            "coinsurance_percentage": 30
+          },
+          "mail_order_copay": {
+            "amount_cents": 25000,
+            "formatted": "30% coinsurance but not more than $250/prescription (retail & home delivery 30 days)",
+            "coinsurance_percentage": 30
+          },
+          "days_supply": {
+            "retail": 30,
+            "mail_order": 30
+          },
+          "deductible_applies": false,
+          "prior_authorization_required": null
+        }
+      ],
+      "preventive_drugs_covered_before_deductible": true
+    },
+    "services": [
+      {
+        "category": "Primary Care",
+        "subcategory": "Primary care visit to treat an injury or illness",
+        "copay": {
+          "in_network": "$25 copay/visit",
+          "out_of_network": "50% coinsurance"
+        },
+        "copay_formatted": "$25 copay/visit",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Specialist Care",
+        "subcategory": "Specialist visit",
+        "copay": {
+          "in_network": "$50 copay/visit",
+          "out_of_network": "50% coinsurance"
+        },
+        "copay_formatted": "$50 copay/visit",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Preventive Care",
+        "subcategory": "Preventive care/screening/immunization",
+        "copay": {
+          "in_network": "No charge",
+          "out_of_network": "50% coinsurance"
+        },
+        "copay_formatted": "No charge",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "You may have to pay for services that aren't preventive. Ask your provider if the services needed are preventive. Then check what your plan will pay for.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Diagnostic Services",
+        "subcategory": "Diagnostic test (x-ray, blood work)",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Diagnostic Services",
+        "subcategory": "Imaging (CT/PET scans, MRIs)",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "30% coinsurance at an outpatient facility, 30% coinsurance in the office",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Facility",
+        "subcategory": "Facility fee (e.g., ambulatory surgery center)",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Surgical Services",
+        "subcategory": "Physician/surgeon fees",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Emergency Services",
+        "subcategory": "Emergency room care",
+        "copay": {
+          "in_network": "$250 copay/visit",
+          "out_of_network": "$250 copay/visit"
+        },
+        "copay_formatted": "$250 copay/visit, plus 30% coinsurance",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 30
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": false
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "Per visit copay is waived if admitted. Out-of-network services are paid at the in-network cost share and deductible.",
+        "copay_waived_conditions": "Admitted to hospital"
+      },
+      {
+        "category": "Emergency Services",
+        "subcategory": "Emergency medical transportation",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 30
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": false
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "Out-of-network air ambulance services are paid at the in-network cost share and deductible.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Urgent Care",
+        "subcategory": "Urgent care",
+        "copay": {
+          "in_network": "$25 copay/visit",
+          "out_of_network": "50% coinsurance"
+        },
+        "copay_formatted": "$25 copay/visit",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Hospital Services",
+        "subcategory": "Facility fee (e.g., hospital room)",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Mental Health",
+        "subcategory": "Outpatient services",
+        "copay": {
+          "in_network": "No charge/office visit",
+          "out_of_network": "20% coinsurance/office visit"
+        },
+        "copay_formatted": "No charge/office visit, No charge/all other services",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 20
+        },
+        "co_insurance_terms": "20% coinsurance/all other services",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty if no precert of out-of-network non-routine services (i.e., partial hospitalization, etc.). Includes medical services for MH/SA diagnoses.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Mental Health",
+        "subcategory": "Inpatient services",
+        "copay": {
+          "in_network": "No charge/admission",
+          "out_of_network": "20% coinsurance"
+        },
+        "copay_formatted": "No charge/admission",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 20
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification. Includes medical services for MH/SA diagnoses.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Pregnancy",
+        "subcategory": "Office visits",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "Primary Care or Specialist benefit levels apply for initial visit to confirm pregnancy. Cost sharing does not apply for preventive services.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Pregnancy",
+        "subcategory": "Childbirth/delivery professional services",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "Depending on the type of services, a copayment, coinsurance or deductible may apply. Maternity care may include tests and services described elsewhere in the SBC (i.e. ultrasound).",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Pregnancy",
+        "subcategory": "Childbirth/delivery facility services",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": null,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Home Health",
+        "subcategory": "Home health care",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": 30,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "100 visits annual max",
+          "out_of_network": "100 visits annual max"
+        },
+        "visit_limit": 100,
+        "visit_limit_terms": "Annual max",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for no out-of-network precertification. Coverage is limited to 100 visits annual max. (The limit is not applicable to mental health and substance use disorder conditions.)",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Rehabilitation",
+        "subcategory": "Rehabilitation services",
+        "copay": {
+          "in_network": "$50 copay/visit",
+          "out_of_network": "50% coinsurance/visit"
+        },
+        "copay_formatted": "$50 copay/visit for Physical, Speech, Hearing & Occupational therapy",
+        "copay_terms": "$50 copay/visit for Chiropractic care",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "20 visits for Chiropractic care",
+          "out_of_network": "20 visits for Chiropractic care"
+        },
+        "visit_limit": 20,
+        "visit_limit_terms": "For Chiropractic care services",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for failure to precertify out-of-network speech therapy.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Habilitation",
+        "subcategory": "Habilitation services",
+        "copay": {
+          "in_network": "$50 copay/visit",
+          "out_of_network": "50% coinsurance/visit"
+        },
+        "copay_formatted": "$50 copay/visit for Physical, Speech, Hearing & Occupational therapy",
+        "copay_terms": "",
+        "co_insurance": {
+          "in_network": null,
+          "out_of_network": 50
+        },
+        "co_insurance_terms": "",
+        "deductible_applies": {
+          "in_network": false,
+          "out_of_network": true
+        },
+        "service_maximum": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "visit_limit": null,
+        "visit_limit_terms": "",
+        "preauthorization_required": true,
+        "waiting_period_in_months": null,
+        "service_frequency_in_months": null,
+        "service_frequency": "",
+        "lifetime_coverage": null,
+        "benefit_exceptions": "$750 penalty for failure to precertify out-of-network speech therapy. Services are covered when Medically Necessary to treat a mental health condition (e.g. autism) or a congenital abnormality.",
+        "copay_waived_conditions": ""
+      },
+      {
+        "category": "Skilled Nursing",
+        "subcategory": "Skilled nursing care",
+        "copay": {
+          "in_network": "",
+          "out_of_network": ""
+        },
+        "copay_formatted": "",
+        "copay_terms": ""
+      }
+    ]
+  }
+}
